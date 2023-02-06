@@ -1,0 +1,82 @@
+@import url(/css/common/reset.css);
+
+.chat{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.chat .chat-con{
+    flex: 0 1 300px;
+    border: 1px;
+    border-color: white;
+    background-color: black;
+    color: white;
+    
+}
+.chat .chat-con h1{
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+
+.chat .chat-con .connect{
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px;
+    background-color: gray;
+}
+
+.chat .chat-con .chatWindow{
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.chat .chat-con .chatWindow .chatWindow-con{
+    height: 50vh;
+    border: 1px solid;
+    overflow-y: scroll;
+}
+
+.chat .chat-con .footChat{
+    display: flex;
+    justify-content: flex-start;
+    padding: 10px;
+    background-color: rgb(128, 128, 128);
+    gap: 5px;
+}
+
+/* 접속자 */
+.yellow {
+    display: flex;
+    justify-content: flex-end;
+    padding: 0.5vw;
+    box-sizing: border-box;
+}
+
+.yellow p {
+    width: 40%;
+    background-color: darkgray;
+    padding: 0.5vw;
+    box-sizing: border-box;
+}
+
+.white {
+ display: flex;
+ justify-content: flex-start;
+ padding: 0.5vw;
+ box-sizing: border-box;
+ background-color: black;
+}
+
+.white p {
+    width: 40%;
+    background-color: black;
+    padding: 0.5vw;
+    box-sizing: border-box;
+}
